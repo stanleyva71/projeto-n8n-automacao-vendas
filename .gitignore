@@ -1,0 +1,20 @@
+# Credenciais locais
+.env
+.env.*
+!.env.example
+
+# Cópia local antiga do Compose: não versionar
+docker-compose.yml.save
+
+# Arquivos de bancos, sessões e dados locais
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.log
+data/
+backups/
+
+# Sistema operacional e editor
+.DS_Store
+.vscode/
