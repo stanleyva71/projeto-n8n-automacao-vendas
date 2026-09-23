@@ -1,6 +1,8 @@
 # Automação de ofertas no WhatsApp
 
-Automação pessoal para divulgar um produto, com imagem e texto, em grupos do WhatsApp nos horários configurados.
+Automação de vendas pelo WhatsApp usando n8n, Evolution API, PostgreSQL, Redis e Docker.
+O sistema agenda o envio diário de ofertas com imagem, descrição e preço para grupos configurados do WhatsApp, nos horários de 08:00, 14:00 e 20:00. Também permite pausar automaticamente os envios ao marcar o produto como indisponível.
+Inclui configuração local com Docker, conexão do WhatsApp por QR Code, controle de produto/preço, agendamento de mensagens e proteção de credenciais com .env.
 
 O projeto usa quatro serviços em containers Docker:
 
